@@ -1,7 +1,5 @@
 ![Banner](profile_banner.jpeg)
 
-## Polyglot Full Stack Developer, Architecture Consultant, Lean/XP Coach and Trainer
-
 - LinkedIn - https://www.linkedin.com/in/harikrishnan83/
 - Twitter - https://twitter.com/HariKrishnan83
 - My Company - https://www.polarizer.in/
