@@ -1,4 +1,4 @@
-![Banner](profile_banner.png)
+![Banner](/harikrishnan83/harikrishnan83/blob/master/profile_banner.png)
 
 - LinkedIn - https://www.linkedin.com/in/harikrishnan83/
 - Twitter - https://twitter.com/HariKrishnan83
