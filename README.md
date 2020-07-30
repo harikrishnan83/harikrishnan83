@@ -1,4 +1,4 @@
-![Banner](profile_banner.jpeg)
+![Banner](profile_banner.png)
 
 - LinkedIn - https://www.linkedin.com/in/harikrishnan83/
 - Twitter - https://twitter.com/HariKrishnan83
