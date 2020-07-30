@@ -1,4 +1,4 @@
-![Banner](profile_banner.png)
+![Banner](profile_banner.jpeg)
 
 ## Polyglot Full Stack Developer, Architecture Consultant, Lean/XP Coach and Trainer
 
