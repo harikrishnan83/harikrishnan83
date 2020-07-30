@@ -1,3 +1,5 @@
+![Banner](profile_banner.png)
+
 ## Polyglot Full Stack Developer, Architecture Consultant, Lean/XP Coach and Trainer
 
 - LinkedIn - https://www.linkedin.com/in/harikrishnan83/
