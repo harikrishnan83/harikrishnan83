@@ -6,4 +6,4 @@
   </ul>
 <p><a href="https://medium.com/polarizertech">➡️ More blog posts</a></p>
 
-<!-- <script type="text/javascript" src="https://sessionize.com/api/speaker/events/e288bcf1-ac51-4e60-be2e-236b225190f0/1x0x3fb393x"></script> -->
+<! — <script type="text/javascript" src="https://sessionize.com/api/speaker/events/e288bcf1-ac51-4e60-be2e-236b225190f0/1x0x3fb393x"></script> — >
