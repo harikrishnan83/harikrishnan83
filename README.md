@@ -5,4 +5,5 @@
     <li><a href=https://medium.com/polarizertech/refactoring-if-else-either-and-flatmap-4f1ca9076664?source=rss-7af1235c6353------2>Refactoring if-else: Either and FlatMap</a></li><li><a href=https://medium.com/polarizertech/railway-oriented-programming-dd74dbf0dfae?source=rss-7af1235c6353------2>Railway Oriented Programming</a></li><li><a href=https://medium.com/polarizertech/blue-green-deployment-nuances-38cf52318814?source=rss-7af1235c6353------2>Blue-Green Deployment Nuances</a></li><li><a href=https://medium.com/polarizertech/inside-out-vs-outside-in-fcf56919a512?source=rss-7af1235c6353------2>Inside Out vs Outside In</a></li><li><a href=https://medium.com/@harikrishnan/thanks-shashwat-45a909d5c1ff?source=rss-7af1235c6353------2>MicroServices and Traceability</a></li><li><a href=https://medium.com/polarizertech/monolith-to-microservices-where-do-we-begin-2bbf95fa5938?source=rss-7af1235c6353------2>Monolith to MicroServices: Where do we begin?</a></li>
   </ul>
 <p><a href="https://medium.com/polarizertech">➡️ More blog posts</a></p>
-<script type="text/javascript" src="https://sessionize.com/api/speaker/events/e288bcf1-ac51-4e60-be2e-236b225190f0/1x0x3fb393x"></script>
+
+<!-- <script type="text/javascript" src="https://sessionize.com/api/speaker/events/e288bcf1-ac51-4e60-be2e-236b225190f0/1x0x3fb393x"></script> -->
