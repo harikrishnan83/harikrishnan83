@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '30 3 * * *'
+    - cron: '30 3 * * *'
 
 jobs:
   build:
@@ -12,23 +12,23 @@ jobs:
 
     strategy:
         matrix:
-          node-version: [10.x]
+          node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
       run: |
         npm ci
     - name: Update README
-      run: |-
+      run: |
         npm start
         cat README.md
     - name: Commit and push if changed
-      run: |-
+      run: |
         git add .
         git diff
         git config --global user.email "github-action-bot@example.com"
