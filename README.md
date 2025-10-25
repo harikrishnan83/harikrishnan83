@@ -26,6 +26,9 @@ I am also an ambassador for AsyncAPI
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Spec-Driven Development - Mind the Context Length](https://blog.harikrishnan.io/2025-10-24/spec-driven-development-mind-context-length)** (October 24, 2025)
+   Explore the nuanced relationship between Spec-Driven Development and LLM context length management, and learn practical strategies for keeping...
+
 📝 **[Spec-Driven Development: Growing list of amazing tools](https://blog.harikrishnan.io/2025-10-22/spec-driven-development-tools)** (October 22, 2025)
    A list of spec-driven development tools include kiro, spec-kit, openspec, tessl, agentos and more
 
@@ -37,9 +40,6 @@ I am also an ambassador for AsyncAPI
 
 📝 **[Spec Driven Development: Beyond the First Feature with API Design First](https://blog.harikrishnan.io/2025-09-17/spec-driven-development-beyond-first-feature)** (September 17, 2025)
    Explore Contract-Driven Development using API Design First with GitHub Spec Kit and backward compatibility checks to prevent breaking changes across...
-
-📝 **[Spec Driven Development: API Design First with GitHub Spec Kit and Specmatic MCP](https://blog.harikrishnan.io/2025-09-09/spec-driven-development-api-design-first)** (September 09, 2025)
-   Explore Specification Driven Development using GitHub Spec Kit and Specmatic MCP for API-first design. Implement structured agentic workflows with...
 
 <!-- BLOG-POSTS-END -->
 
