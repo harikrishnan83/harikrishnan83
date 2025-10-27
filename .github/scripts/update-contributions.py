@@ -11,7 +11,7 @@ README_PATH = "README.md"
 NUM_REPOS = 5
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
-def make_github_request(url):
+def make_github_request(url, retry_count=0, max_retries=3):
     """Make authenticated GitHub API request"""
     headers = {
         'Accept': 'application/vnd.github.v3+json',
@@ -23,11 +23,37 @@ def make_github_request(url):
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=10) as response:
-            return json.loads(response.read().decode('utf-8'))
+            rate_limit_remaining = response.headers.get('X-RateLimit-Remaining')
+            if rate_limit_remaining and int(rate_limit_remaining) < 10:
+                print(f"Warning: Only {rate_limit_remaining} API requests remaining")
+
+            content = response.read(10 * 1024 * 1024)
+            return json.loads(content.decode('utf-8'))
     except urllib.error.HTTPError as e:
         print(f"HTTP Error {e.code}: {e.reason} for URL: {url}")
         if e.code == 403:
-            print("Rate limit may have been exceeded. Check API rate limits.")
+            print("Rate limit exceeded. Check API rate limits.")
+            try:
+                rate_limit_reset = e.headers.get('X-RateLimit-Reset')
+                if rate_limit_reset:
+                    import time
+                    reset_time = int(rate_limit_reset) - int(time.time())
+                    print(f"Rate limit resets in {reset_time} seconds")
+            except Exception:
+                pass
+        elif e.code == 502 or e.code == 503 or e.code == 504:
+            if retry_count < max_retries:
+                import time
+                wait_time = 2 ** retry_count
+                print(f"Server error. Retrying in {wait_time} seconds...")
+                time.sleep(wait_time)
+                return make_github_request(url, retry_count + 1, max_retries)
+        return None
+    except urllib.error.URLError as e:
+        print(f"URL Error for {url}: {e.reason}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"JSON decode error for {url}: {e}")
         return None
     except Exception as e:
         print(f"Error making request to {url}: {e}")
@@ -37,10 +63,9 @@ def fetch_contributed_repos():
     """Fetch all public repositories the user has contributed to"""
     print(f"Fetching contribution data for {GITHUB_USERNAME}...")
 
-    # Get user's public events (last 90 days of activity)
     contributed_repos = {}
     page = 1
-    max_pages = 10  # Limit to prevent excessive API calls
+    max_pages = 10
 
     while page <= max_pages:
         events_url = f"https://api.github.com/users/{GITHUB_USERNAME}/events/public?page={page}&per_page=100"
@@ -50,7 +75,6 @@ def fetch_contributed_repos():
             break
 
         for event in events:
-            # Look for push events, pull request events, and issue events
             if event.get('type') in ['PushEvent', 'PullRequestEvent', 'IssuesEvent', 'IssueCommentEvent', 'PullRequestReviewEvent']:
                 repo = event.get('repo', {})
                 repo_name = repo.get('name', '')
@@ -62,7 +86,6 @@ def fetch_contributed_repos():
 
     print(f"Found {len(contributed_repos)} repositories from recent events")
 
-    # Also get repositories where user has made commits (search commits)
     search_url = f"https://api.github.com/search/commits?q=author:{GITHUB_USERNAME}+is:public&sort=committer-date&order=desc&per_page=100"
     headers = {
         'Accept': 'application/vnd.github.cloak-preview+json',
@@ -116,25 +139,36 @@ def format_contributions(repos):
     if not repos:
         return "## Open Source Contributions\n\n_Unable to fetch contributions at this time._\n"
 
-    # Sort by stars (descending)
-    sorted_repos = sorted(repos, key=lambda x: x['stars'], reverse=True)
-
-    # Take top N
+    sorted_repos = sorted(repos, key=lambda x: x.get('stars', 0), reverse=True)
     top_repos = sorted_repos[:NUM_REPOS]
 
     markdown = "## Open Source Contributions\n\n"
-    markdown += "Here are a few repos I have contributed to:\n\n"
+    markdown += "Top 5 repositories I've contributed to (by GitHub stars):\n\n"
 
     for repo in top_repos:
-        stars_formatted = f"{repo['stars']:,}"
-        language = repo['language'] if repo['language'] else 'Various'
+        full_name = repo.get('full_name', 'Unknown')
+        html_url = repo.get('html_url', '#')
+        stars = repo.get('stars', 0)
+        language = repo.get('language', 'Various')
 
-        markdown += f"📦 **[{repo['full_name']}]({repo['html_url']})** "
+        if not html_url.startswith('https://github.com/'):
+            print(f"Warning: Skipping invalid URL: {html_url}")
+            continue
+
+        stars_formatted = f"{stars:,}"
+        language = language if language else 'Various'
+
+        markdown += f"⭐ **[{full_name}]({html_url})** "
         markdown += f"(★ {stars_formatted} | {language})\n"
 
-        description = repo['description'] if repo['description'] else 'No description available'
-        if len(description) > 120:
-            description = description[:120].rsplit(' ', 1)[0] + '...'
+        description = repo.get('description', 'No description available')
+        if description:
+            description = description.replace('\n', ' ').replace('\r', ' ')
+            if len(description) > 120:
+                description = description[:120].rsplit(' ', 1)[0] + '...'
+        else:
+            description = 'No description available'
+
         markdown += f"   {description}\n\n"
 
     return markdown
@@ -145,14 +179,10 @@ def update_readme(contributions_content):
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        # Define markers for contributions section
         start_marker = "<!-- CONTRIBUTIONS-START -->"
         end_marker = "<!-- CONTRIBUTIONS-END -->"
 
-        # Check if markers exist
         if start_marker not in readme_content:
-            # Add contributions section before the website link at the end
-            # Find the position before the last "---" or before "Learn more" section
             pattern = r'(\n---\n\n\*\*Learn more by visiting my website)'
             if re.search(pattern, readme_content):
                 readme_content = re.sub(
@@ -161,13 +191,11 @@ def update_readme(contributions_content):
                     readme_content
                 )
             else:
-                # Fallback: add at the end
                 readme_content = readme_content.rstrip()
                 if not readme_content.endswith('\n'):
                     readme_content += '\n'
                 readme_content += f"\n{start_marker}\n{contributions_content}{end_marker}\n"
         else:
-            # Replace existing contributions section
             pattern = re.escape(start_marker) + r'.*?' + re.escape(end_marker)
             readme_content = re.sub(
                 pattern,

@@ -14,16 +14,21 @@ on:
 
 permissions:
   contents: write
+  pull-requests: none
+  issues: none
+  statuses: none
 
 jobs:
   update-blog-posts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955
+        with:
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c
         with:
           python-version: '3.11'
 

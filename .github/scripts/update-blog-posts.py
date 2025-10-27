@@ -22,8 +22,26 @@ ns = {
 def fetch_rss_feed(url):
     """Fetch RSS feed from URL"""
     try:
-        with urllib.request.urlopen(url, timeout=10) as response:
-            return response.read().decode('utf-8')
+        if not url.startswith(('http://', 'https://')):
+            print(f"Invalid URL scheme: {url}")
+            return None
+
+        req = urllib.request.Request(url)
+        req.add_header('User-Agent', 'Mozilla/5.0 (GitHub-Profile-Updater)')
+
+        with urllib.request.urlopen(req, timeout=10) as response:
+            content_type = response.headers.get('Content-Type', '')
+            if not any(ct in content_type.lower() for ct in ['xml', 'rss', 'atom', 'application/xml', 'text/xml']):
+                print(f"Warning: Unexpected content type: {content_type}")
+
+            content = response.read(5 * 1024 * 1024)
+            return content.decode('utf-8')
+    except urllib.error.HTTPError as e:
+        print(f"HTTP Error fetching RSS feed: {e.code} {e.reason}")
+        return None
+    except urllib.error.URLError as e:
+        print(f"URL Error fetching RSS feed: {e.reason}")
+        return None
     except Exception as e:
         print(f"Error fetching RSS feed: {e}")
         return None
@@ -31,12 +49,13 @@ def fetch_rss_feed(url):
 def parse_rss_feed(rss_content):
     """Parse RSS/Atom feed and extract post information"""
     try:
-        root = ET.fromstring(rss_content)
+        parser = ET.XMLParser()
+        parser.entity = {}
+        parser.feed(rss_content)
+        root = parser.close()
         posts = []
 
-        # Check if it's an Atom feed (has atom namespace)
         if 'http://www.w3.org/2005/Atom' in root.tag:
-            # Parse Atom feed
             for entry in root.findall('atom:entry', ns):
                 title = entry.find('atom:title', ns)
                 link = entry.find('atom:link', ns)
@@ -45,7 +64,6 @@ def parse_rss_feed(rss_content):
                 summary = entry.find('atom:summary', ns)
 
                 if title is not None:
-                    # Get href from link element
                     link_href = ''
                     if link is not None and link.get('href'):
                         link_href = link.get('href')
@@ -65,7 +83,6 @@ def parse_rss_feed(rss_content):
                     if len(posts) >= NUM_POSTS:
                         break
         else:
-            # Parse RSS feed (fallback)
             for item in root.findall('.//item'):
                 title = item.find('title')
                 link = item.find('link')
@@ -108,11 +125,18 @@ def parse_date(date_string):
 
 def extract_summary(html_text, max_length=150):
     """Extract plain text summary from HTML"""
-    # Remove HTML tags
-    clean_text = re.sub(r'<[^>]+>', '', html_text)
-    # Remove extra whitespace
+    if not html_text:
+        return ''
+
+    html_text = html_text[:10000]
+
+    clean_text = html_text
+    for tag in ['<br>', '<br/>', '<br />', '</p>', '</div>', '</li>']:
+        clean_text = clean_text.replace(tag, ' ')
+
+    clean_text = re.sub(r'<[^>]{1,100}>', '', clean_text)
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()
-    # Truncate to max length
+
     if len(clean_text) > max_length:
         clean_text = clean_text[:max_length].rsplit(' ', 1)[0] + '...'
     return clean_text
@@ -135,19 +159,15 @@ def update_readme(blog_content):
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        # Define markers for blog section
         start_marker = "<!-- BLOG-POSTS-START -->"
         end_marker = "<!-- BLOG-POSTS-END -->"
 
-        # Check if markers exist
         if start_marker not in readme_content:
-            # Add blog section at the end before the website link
             readme_content = readme_content.rstrip()
             if not readme_content.endswith('\n'):
                 readme_content += '\n'
             readme_content += f"\n{start_marker}\n{blog_content}{end_marker}\n"
         else:
-            # Replace existing blog section
             pattern = re.escape(start_marker) + r'.*?' + re.escape(end_marker)
             readme_content = re.sub(pattern, f"{start_marker}\n{blog_content}{end_marker}",
                                    readme_content, flags=re.DOTALL)

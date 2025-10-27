@@ -5,7 +5,6 @@
 🎯 Problem Solver
 🔧 Tech Transformation Advisor
 🤖 AI & Platform Strategist
-💻 Open Source Contributor
 🎤 International Speaker
 
 ## Connect with Me
