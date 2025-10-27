@@ -47,21 +47,21 @@ I am also an ambassador for AsyncAPI
 <!-- CONTRIBUTIONS-START -->
 ## Open Source Contributions
 
-Here are a few repos I have contributed to:
+Top 5 repositories I've contributed to (by GitHub stars):
 
-📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 42,243 | Shell)
+⭐ **[github/spec-kit](https://github.com/github/spec-kit)** (★ 42,272 | Shell)
    💫 Toolkit to help you get started with Spec-Driven Development
 
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 5,462 | TypeScript)
+⭐ **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 5,480 | TypeScript)
    Spec-driven development for AI coding assistants.
 
-📦 **[asyncapi/community](https://github.com/asyncapi/community)** (★ 126 | JavaScript)
+⭐ **[asyncapi/community](https://github.com/asyncapi/community)** (★ 126 | JavaScript)
    AsyncAPI community-related stuff.
 
-📦 **[specmatic/specmatic-mcp-sample-with-spec-kit](https://github.com/specmatic/specmatic-mcp-sample-with-spec-kit)** (★ 21 | Shell)
+⭐ **[specmatic/specmatic-mcp-sample-with-spec-kit](https://github.com/specmatic/specmatic-mcp-sample-with-spec-kit)** (★ 21 | Shell)
    This project demonstrates contract-first development using a spec-kit approach where OpenAPI specifications evolve...
 
-📦 **[specmatic/specmatic-mcp-server](https://github.com/specmatic/specmatic-mcp-server)** (★ 6 | TypeScript)
+⭐ **[specmatic/specmatic-mcp-server](https://github.com/specmatic/specmatic-mcp-server)** (★ 6 | TypeScript)
    A Model Context Protocol (MCP) server that exposes Specmatic's contract testing capabilities to AI coding agents like...
 
 <!-- CONTRIBUTIONS-END -->
