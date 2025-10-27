@@ -1,27 +1,4 @@
 #!/usr/bin/env python3
-"""
-Script to fetch repositories contributed to and update README.md
-
-GitHub Token Requirements:
---------------------------
-This script uses the GITHUB_TOKEN environment variable for authentication.
-
-When running in GitHub Actions:
-  - The token is automatically provided via secrets.GITHUB_TOKEN
-  - No manual setup required
-  - Has read access to public repositories
-  - Higher API rate limits (5,000 requests/hour vs 60 unauthenticated)
-
-Required token permissions:
-  - public_repo (read access to public repositories)
-  - read:user (read user profile data)
-
-When running locally:
-  - Set GITHUB_TOKEN environment variable with a Personal Access Token (PAT)
-  - Create PAT at: https://github.com/settings/tokens
-  - Select scopes: public_repo, read:user
-  - Or run without token (lower rate limits apply)
-"""
 
 import json
 import urllib.request
@@ -29,12 +6,9 @@ import urllib.error
 import re
 import os
 
-# Configuration
 GITHUB_USERNAME = "harikrishnan83"
 README_PATH = "README.md"
 NUM_REPOS = 5
-
-# GitHub token for authentication (automatically provided in GitHub Actions)
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 def make_github_request(url):
@@ -149,19 +123,16 @@ def format_contributions(repos):
     top_repos = sorted_repos[:NUM_REPOS]
 
     markdown = "## Open Source Contributions\n\n"
-    markdown += f"Top {len(top_repos)} repositories I've contributed to (by GitHub stars):\n\n"
+    markdown += "Here are a few repos I have contributed to:\n\n"
 
     for repo in top_repos:
-        # Format: ⭐ **[repo-name](url)** - Description (★ stars | language)
         stars_formatted = f"{repo['stars']:,}"
         language = repo['language'] if repo['language'] else 'Various'
 
-        markdown += f"⭐ **[{repo['full_name']}]({repo['html_url']})** "
+        markdown += f"📦 **[{repo['full_name']}]({repo['html_url']})** "
         markdown += f"(★ {stars_formatted} | {language})\n"
 
-        # Add description with indentation
         description = repo['description'] if repo['description'] else 'No description available'
-        # Truncate long descriptions
         if len(description) > 120:
             description = description[:120].rsplit(' ', 1)[0] + '...'
         markdown += f"   {description}\n\n"
