@@ -143,7 +143,7 @@ def format_contributions(repos):
     top_repos = sorted_repos[:NUM_REPOS]
 
     markdown = "## Open Source Contributions\n\n"
-    markdown += "Top 5 repositories I've contributed to (by GitHub stars):\n\n"
+    markdown += "Here are a few repos I have contributed to:\n\n"
 
     for repo in top_repos:
         full_name = repo.get('full_name', 'Unknown')
@@ -158,7 +158,7 @@ def format_contributions(repos):
         stars_formatted = f"{stars:,}"
         language = language if language else 'Various'
 
-        markdown += f"⭐ **[{full_name}]({html_url})** "
+        markdown += f"📦 **[{full_name}]({html_url})** "
         markdown += f"(★ {stars_formatted} | {language})\n"
 
         description = repo.get('description', 'No description available')
