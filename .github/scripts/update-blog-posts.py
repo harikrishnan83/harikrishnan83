@@ -49,10 +49,7 @@ def fetch_rss_feed(url):
 def parse_rss_feed(rss_content):
     """Parse RSS/Atom feed and extract post information"""
     try:
-        parser = ET.XMLParser()
-        parser.entity = {}
-        parser.feed(rss_content)
-        root = parser.close()
+        root = ET.fromstring(rss_content)
         posts = []
 
         if 'http://www.w3.org/2005/Atom' in root.tag:
