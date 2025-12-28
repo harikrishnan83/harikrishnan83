@@ -25,6 +25,12 @@ I am also an ambassador for AsyncAPI
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Which Spec-Driven Development Tool Should You Choose?](https://blog.harikrishnan.io/2025-12-26/choosing-spec-driven-development-tool)** (December 26, 2025)
+   A practical framework for evaluating and selecting appropriate spec-driven development tools by considering workflow requirements and project rigor...
+
+📝 **[Vibe Coding vs Spec-Driven Development: Intent to Implementation Deviation and Context Engineering](https://blog.harikrishnan.io/2025-12-15/vibe-coding-vs-spec-driven-development)** (December 15, 2025)
+   Contrasting vibe coding and spec-driven development approaches to AI-assisted coding, examining how workflow structure affects alignment between...
+
 📝 **[Spec-Driven Development with OpenSpec - Source of Truth Specifications](https://blog.harikrishnan.io/2025-11-09/spec-driven-development-openspec-source-truth)** (November 09, 2025)
    Explore how OpenSpec's approach to maintaining a single source of truth specification enables better spec-driven development workflows and continuous...
 
@@ -33,12 +39,6 @@ I am also an ambassador for AsyncAPI
 
 📝 **[Spec-Driven Development: Growing list of amazing tools](https://blog.harikrishnan.io/2025-10-22/spec-driven-development-tools)** (October 22, 2025)
    A list of spec-driven development tools include kiro, spec-kit, openspec, tessl, agentos and more
-
-📝 **[GitHub Spec Kit Extensions: Incubate, Test, and Distribute Experimental Commands](https://blog.harikrishnan.io/2025-10-15/spec-kit-extensions-incubate-test-distribute)** (October 15, 2025)
-   Explore GitHub Spec Kit Extensions—a framework for incubating, testing, and distributing experimental commands with community feedback before...
-
-📝 **[Spec Driven Development: Analysing Across Features with Systems Thinking](https://blog.harikrishnan.io/2025-10-03/spec-driven-development-analysing-across-features)** (October 03, 2025)
-   Explore how GitHub Spec Kit's /cross-feature command applies Systems Thinking to detect cross-feature conflicts, feedback loops, and notification...
 
 <!-- BLOG-POSTS-END -->
 
