@@ -1,0 +1,51 @@
+name: Update YouTube Videos
+
+on:
+  schedule:
+    # Run weekly on Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/update-youtube-videos.yml'
+      - '.github/scripts/update-youtube-videos.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: none
+  issues: none
+  statuses: none
+
+jobs:
+  update-youtube-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955
+        with:
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c
+        with:
+          python-version: '3.11'
+
+      - name: Run YouTube videos update script
+        run: python .github/scripts/update-youtube-videos.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Check if there are changes to commit
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+          else
+            git add README.md
+            git commit -m "chore: update YouTube videos from Intent Driven Dev"
+            git push
+          fi

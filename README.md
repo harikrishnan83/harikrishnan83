@@ -16,7 +16,13 @@
 [![Sessionize](https://img.shields.io/badge/Sessionize-1AB394?style=for-the-badge&logo=sessionize&logoColor=white)](https://sessionize.com/harikrishnan/)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge)](https://medium.com/polarizertech)
 
-I am also an ambassador for AsyncAPI
+## Intent-Driven Development
+
+<a href="https://intent-driven.dev"><img src="https://intent-driven.dev/assets/logo.webp" alt="Intent Driven Dev" height="36"></a>
+
+**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively. Featuring the OpenSpec framework and practical tutorials.
+
+## AsyncAPI Ambassador
 
 [![AsyncAPI Ambassador](https://img.shields.io/badge/AsyncAPI-Ambassador-9146FF?style=for-the-badge&logo=asyncapi&logoColor=white)](https://www.asyncapi.com/community/ambassadors/harikrishnan83)
 
@@ -41,6 +47,26 @@ I am also an ambassador for AsyncAPI
    A list of spec-driven development tools include kiro, spec-kit, openspec, tessl, agentos and more
 
 <!-- BLOG-POSTS-END -->
+
+---
+
+<!-- YOUTUBE-VIDEOS-START -->
+## Latest Videos from Intent Driven Dev
+
+📺 **[Linear MCP and OpenSpec based SDD workflow](https://www.youtube.com/watch?v=u7tlYs2WgQU)** (January 12, 2026)
+   In this video, I walk through an OpenSpec based Spec-Driven Development (SDD) workflow that integrates with Linear for backlog and issue management....
+
+📺 **[Spec-Driven Development - Which tool should I use?](https://www.youtube.com/watch?v=I0x01WZq1Zw)** (December 26, 2025)
+   Which spec-driven development tool to choose? How does spec-driven development differ from plan mode? This video intends to clarify on these aspects...
+
+📺 **[OpenSpec Workflow - How source of truth specification makes OpenSpec unique](https://www.youtube.com/watch?v=B7VPMKW5tnk)** (December 18, 2025)
+   The source-of-truth specification is what makes OpenSpec unique among Spec-Driven Development tools. In OpenSpec, changes are authored as deltas and...
+
+📺 **[Vibe Coding Vs Spec-Driven Development](https://www.youtube.com/watch?v=VvzoAgtjF6w)** (December 15, 2025)
+   Read the full blog post here - https://intent-driven.dev/blog/2025/12/15/vibe-coding-vs-spec-driven-development/. Are you just "vibing" with your AI...
+
+[View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
+<!-- YOUTUBE-VIDEOS-END -->
 
 ---
 
