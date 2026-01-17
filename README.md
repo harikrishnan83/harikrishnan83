@@ -31,6 +31,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Linear MCP + OpenSpec: A Spec-Driven Development Workflow](https://blog.harikrishnan.io/2026-01-11/linear-mcp-openspec-sdd-workflow)** (January 11, 2026)
+   This article explores how to integrate Spec-Driven Development (SDD) into existing workflows by combining Linear project management with OpenSpec....
+
 📝 **[Which Spec-Driven Development Tool Should You Choose?](https://blog.harikrishnan.io/2025-12-26/choosing-spec-driven-development-tool)** (December 26, 2025)
    A practical framework for evaluating and selecting appropriate spec-driven development tools by considering workflow requirements and project rigor...
 
@@ -42,9 +45,6 @@
 
 📝 **[Spec-Driven Development - Mind the Context Length](https://blog.harikrishnan.io/2025-10-24/spec-driven-development-mind-context-length)** (October 24, 2025)
    Explore the nuanced relationship between Spec-Driven Development and LLM context length management, and learn practical strategies for keeping...
-
-📝 **[Spec-Driven Development: Growing list of amazing tools](https://blog.harikrishnan.io/2025-10-22/spec-driven-development-tools)** (October 22, 2025)
-   A list of spec-driven development tools include kiro, spec-kit, openspec, tessl, agentos and more
 
 <!-- BLOG-POSTS-END -->
 
