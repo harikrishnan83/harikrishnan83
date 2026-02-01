@@ -53,6 +53,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[OpenSpec Release 1.0 - Workflow Changes](https://www.youtube.com/watch?v=JrI-P64y7H8)** (January 26, 2026)
+   Walkthrough of changes in workflow (explore, new, continue, fast forward, verify, etc.) that come with release 1.0. #openspec #specdrivendevelopment...
+
 📺 **[Linear MCP and OpenSpec based SDD workflow](https://www.youtube.com/watch?v=u7tlYs2WgQU)** (January 12, 2026)
    In this video, I walk through an OpenSpec based Spec-Driven Development (SDD) workflow that integrates with Linear for backlog and issue management....
 
