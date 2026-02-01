@@ -78,20 +78,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 58,877 | Python)
+📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 66,593 | Python)
    💫 Toolkit to help you get started with Spec-Driven Development
 
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 14,768 | TypeScript)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 21,299 | TypeScript)
    Spec-driven development (SDD) for AI coding assistants.
 
-📦 **[asyncapi/community](https://github.com/asyncapi/community)** (★ 129 | JavaScript)
+📦 **[asyncapi/community](https://github.com/asyncapi/community)** (★ 135 | JavaScript)
    AsyncAPI community-related stuff.
 
-📦 **[specmatic/specmatic-mcp-sample-with-spec-kit](https://github.com/specmatic/specmatic-mcp-sample-with-spec-kit)** (★ 26 | Shell)
-   This project demonstrates contract-first development using a spec-kit approach where OpenAPI specifications evolve...
+📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 21 | TypeScript)
+   No description available
 
-📦 **[specmatic/specmatic-mcp-server](https://github.com/specmatic/specmatic-mcp-server)** (★ 6 | TypeScript)
-   A Model Context Protocol (MCP) server that exposes Specmatic's contract testing capabilities to AI coding agents like...
+📦 **[polarizertech/spec-kit-extensions](https://github.com/polarizertech/spec-kit-extensions)** (★ 7 | PowerShell)
+   A collection of community-contributed extensions for https://github.com/github/spec-kit that enhance the Spec-Driven...
 
 <!-- CONTRIBUTIONS-END -->
 
