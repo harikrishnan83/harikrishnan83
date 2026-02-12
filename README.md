@@ -31,6 +31,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[OpenSpec 1.0 Release](https://blog.harikrishnan.io/2026-01-26/openspec-1-0-release)** (January 26, 2026)
+   OpenSpec 1.0 marks a major milestone for spec-driven development workflows, introducing Explore Mode, step-by-step generation, and intent...
+
 📝 **[Linear MCP + OpenSpec: A Spec-Driven Development Workflow](https://blog.harikrishnan.io/2026-01-11/linear-mcp-openspec-sdd-workflow)** (January 11, 2026)
    This article explores how to integrate Spec-Driven Development (SDD) into existing workflows by combining Linear project management with OpenSpec....
 
@@ -42,9 +45,6 @@
 
 📝 **[Spec-Driven Development with OpenSpec - Source of Truth Specifications](https://blog.harikrishnan.io/2025-11-09/spec-driven-development-openspec-source-truth)** (November 09, 2025)
    Explore how OpenSpec's approach to maintaining a single source of truth specification enables better spec-driven development workflows and continuous...
-
-📝 **[Spec-Driven Development - Mind the Context Length](https://blog.harikrishnan.io/2025-10-24/spec-driven-development-mind-context-length)** (October 24, 2025)
-   Explore the nuanced relationship between Spec-Driven Development and LLM context length management, and learn practical strategies for keeping...
 
 <!-- BLOG-POSTS-END -->
 
