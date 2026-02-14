@@ -26,6 +26,10 @@
 
 [![AsyncAPI Ambassador](https://img.shields.io/badge/AsyncAPI-Ambassador-9146FF?style=for-the-badge&logo=asyncapi&logoColor=white)](https://www.asyncapi.com/community/ambassadors/harikrishnan83)
 
+## OpenSpec Maintainer
+
+[![OpenSpec Maintainer](https://img.shields.io/badge/OpenSpec-Technical_Direction_Advisor-blue?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec/blob/main/MAINTAINERS.md#advisors)
+
 ---
 
 <!-- BLOG-POSTS-START -->
