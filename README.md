@@ -31,6 +31,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[OpenSpec Custom Schemas](https://blog.harikrishnan.io/2026-02-12/openspec-custom-schemas)** (February 12, 2026)
+   Custom schemas in OpenSpec let you tailor spec-driven workflows to your domain, defining exactly what artifacts your team needs and how they connect.
+
 📝 **[OpenSpec 1.0 Release](https://blog.harikrishnan.io/2026-01-26/openspec-1-0-release)** (January 26, 2026)
    OpenSpec 1.0 marks a major milestone for spec-driven development workflows, introducing Explore Mode, step-by-step generation, and intent...
 
@@ -42,9 +45,6 @@
 
 📝 **[Vibe Coding vs Spec-Driven Development: Intent to Implementation Deviation and Context Engineering](https://blog.harikrishnan.io/2025-12-15/vibe-coding-vs-spec-driven-development)** (December 15, 2025)
    Contrasting vibe coding and spec-driven development approaches to AI-assisted coding, examining how workflow structure affects alignment between...
-
-📝 **[Spec-Driven Development with OpenSpec - Source of Truth Specifications](https://blog.harikrishnan.io/2025-11-09/spec-driven-development-openspec-source-truth)** (November 09, 2025)
-   Explore how OpenSpec's approach to maintaining a single source of truth specification enables better spec-driven development workflows and continuous...
 
 <!-- BLOG-POSTS-END -->
 
