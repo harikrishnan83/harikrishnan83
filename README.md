@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[OpenSpec Custom Schemas #specdrivendevelopment #openspec #aicoding #eventdrivenarchitecture](https://www.youtube.com/watch?v=k01nbZfwB34)** (February 12, 2026)
+   OpenSpec 1.0 allows us to customise the workflow as our needs using the config.yaml where we can refer to our own schema definitions. In this video...
+
 📺 **[OpenSpec Release 1.0 - Workflow Changes](https://www.youtube.com/watch?v=JrI-P64y7H8)** (January 26, 2026)
    Walkthrough of changes in workflow (explore, new, continue, fast forward, verify, etc.) that come with release 1.0. #openspec #specdrivendevelopment...
 
@@ -68,9 +71,6 @@
 
 📺 **[OpenSpec Workflow - How source of truth specification makes OpenSpec unique](https://www.youtube.com/watch?v=B7VPMKW5tnk)** (December 18, 2025)
    The source-of-truth specification is what makes OpenSpec unique among Spec-Driven Development tools. In OpenSpec, changes are authored as deltas and...
-
-📺 **[Vibe Coding Vs Spec-Driven Development](https://www.youtube.com/watch?v=VvzoAgtjF6w)** (December 15, 2025)
-   Read the full blog post here - https://intent-driven.dev/blog/2025/12/15/vibe-coding-vs-spec-driven-development/. Are you just "vibing" with your AI...
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
