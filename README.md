@@ -36,7 +36,7 @@
 ## Latest from My Blog
 
 📝 **[OpenSpec Custom Schemas](https://blog.harikrishnan.io/2026-02-12/openspec-custom-schemas)** (February 12, 2026)
-   Custom schemas in OpenSpec let you tailor spec-driven workflows to your domain, defining exactly what artifacts your team needs and how they connect.
+   Customising OpenSpec workflow with schemas and config.yaml to tailor spec-driven workflows to your domain, defining exactly what artifacts your team...
 
 📝 **[OpenSpec 1.0 Release](https://blog.harikrishnan.io/2026-01-26/openspec-1-0-release)** (January 26, 2026)
    OpenSpec 1.0 marks a major milestone for spec-driven development workflows, introducing Explore Mode, step-by-step generation, and intent...
