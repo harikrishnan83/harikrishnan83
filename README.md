@@ -20,8 +20,7 @@
 
 <a href="https://intent-driven.dev"><img src="https://intent-driven.dev/assets/logo.webp" alt="Intent Driven Dev" height="36"></a>
 
-**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively. Featuring the OpenSpec framework and practical tutorials.
-
+**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively.
 ## AsyncAPI Ambassador
 
 [![AsyncAPI Ambassador](https://img.shields.io/badge/AsyncAPI-Ambassador-9146FF?style=for-the-badge&logo=asyncapi&logoColor=white)](https://www.asyncapi.com/community/ambassadors/harikrishnan83)
