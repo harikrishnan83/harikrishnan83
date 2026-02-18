@@ -7,6 +7,20 @@
 🤖 AI & Platform Strategist
 🎤 International Speaker
 
+## Intent-Driven Development
+
+<a href="https://intent-driven.dev"><img src="https://intent-driven.dev/assets/logo.webp" alt="Intent Driven Dev" height="36"></a>
+
+**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively. 
+
+## AsyncAPI Ambassador
+
+[![AsyncAPI Ambassador](https://img.shields.io/badge/AsyncAPI-Ambassador-9146FF?style=for-the-badge&logo=asyncapi&logoColor=white)](https://www.asyncapi.com/community/ambassadors/harikrishnan83)
+
+## OpenSpec Maintainer
+
+[![OpenSpec Maintainer](https://img.shields.io/badge/OpenSpec-Technical_Direction_Advisor-blue?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec/blob/main/MAINTAINERS.md#advisors)
+
 ## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harikrishnan83/)
@@ -15,19 +29,6 @@
 [![YouTube](https://img.shields.io/badge/Conference_Talks-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLCvxeE-sz-sfub41wG1tQwRSR2rejWDmO)
 [![Sessionize](https://img.shields.io/badge/Sessionize-1AB394?style=for-the-badge&logo=sessionize&logoColor=white)](https://sessionize.com/harikrishnan/)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge)](https://medium.com/polarizertech)
-
-## Intent-Driven Development
-
-<a href="https://intent-driven.dev"><img src="https://intent-driven.dev/assets/logo.webp" alt="Intent Driven Dev" height="36"></a>
-
-**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively.
-## AsyncAPI Ambassador
-
-[![AsyncAPI Ambassador](https://img.shields.io/badge/AsyncAPI-Ambassador-9146FF?style=for-the-badge&logo=asyncapi&logoColor=white)](https://www.asyncapi.com/community/ambassadors/harikrishnan83)
-
-## OpenSpec Maintainer
-
-[![OpenSpec Maintainer](https://img.shields.io/badge/OpenSpec-Technical_Direction_Advisor-blue?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec/blob/main/MAINTAINERS.md#advisors)
 
 ---
 
