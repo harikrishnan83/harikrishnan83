@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[Spec-Driven Development – Adoption at Enterprise Scale #specdrivendevelopment #enterpriseai](https://www.youtube.com/watch?v=XGAtC6BF2ao)** (February 21, 2026)
+   This video is a brief introduction to ideas from my long-form article published on InfoQ -...
+
 📺 **[OpenSpec Custom Schemas #specdrivendevelopment #openspec #aicoding #eventdrivenarchitecture](https://www.youtube.com/watch?v=k01nbZfwB34)** (February 12, 2026)
    OpenSpec 1.0 allows us to customise the workflow as our needs using the config.yaml where we can refer to our own schema definitions. In this video...
 
@@ -68,9 +71,6 @@
 
 📺 **[Spec-Driven Development - Which tool should I use?](https://www.youtube.com/watch?v=I0x01WZq1Zw)** (December 26, 2025)
    Which spec-driven development tool to choose? How does spec-driven development differ from plan mode? This video intends to clarify on these aspects...
-
-📺 **[OpenSpec Workflow - How source of truth specification makes OpenSpec unique](https://www.youtube.com/watch?v=B7VPMKW5tnk)** (December 18, 2025)
-   The source-of-truth specification is what makes OpenSpec unique among Spec-Driven Development tools. In OpenSpec, changes are authored as deltas and...
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
