@@ -35,6 +35,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Enterprise-Scale Spec-Driven Development: New InfoQ Article](https://blog.harikrishnan.io/2026-02-19/enterprise-spec-driven-development-infoq)** (February 19, 2026)
+   My article on InfoQ explores how organisations can adopt Spec-Driven Development at scale — from brownfield integration and role-specific harnesses...
+
 📝 **[OpenSpec Custom Schemas](https://blog.harikrishnan.io/2026-02-12/openspec-custom-schemas)** (February 12, 2026)
    Customising OpenSpec workflow with schemas and config.yaml to tailor spec-driven workflows to your domain, defining exactly what artifacts your team...
 
@@ -46,9 +49,6 @@
 
 📝 **[Which Spec-Driven Development Tool Should You Choose?](https://blog.harikrishnan.io/2025-12-26/choosing-spec-driven-development-tool)** (December 26, 2025)
    A practical framework for evaluating and selecting appropriate spec-driven development tools by considering workflow requirements and project rigor...
-
-📝 **[Vibe Coding vs Spec-Driven Development: Intent to Implementation Deviation and Context Engineering](https://blog.harikrishnan.io/2025-12-15/vibe-coding-vs-spec-driven-development)** (December 15, 2025)
-   Contrasting vibe coding and spec-driven development approaches to AI-assisted coding, examining how workflow structure affects alignment between...
 
 <!-- BLOG-POSTS-END -->
 

@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 
 # Configuration
-RSS_URL = "https://blog.harikrishnan.io/feed.xml"
+RSS_URL = "https://blog.harikrishnan.io/blog/feed.xml"
 README_PATH = "README.md"
 NUM_POSTS = 5
 
