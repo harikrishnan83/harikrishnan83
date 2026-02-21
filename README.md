@@ -11,7 +11,7 @@
 
 <a href="https://intent-driven.dev"><img src="https://intent-driven.dev/assets/logo.webp" alt="Intent Driven Dev" height="36"></a>
 
-**[intent-driven.dev](https://intent-driven.dev)** - Learn context engineering and spec-driven development to guide AI coding agents effectively. 
+**[intent-driven.dev](https://intent-driven.dev)** - Learn **context engineering** and **spec-driven development** to guide AI coding agents effectively. 
 
 ## AsyncAPI Ambassador
 
