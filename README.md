@@ -82,20 +82,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 66,593 | Python)
+📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 72,837 | Python)
    💫 Toolkit to help you get started with Spec-Driven Development
 
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 21,299 | TypeScript)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 26,504 | TypeScript)
    Spec-driven development (SDD) for AI coding assistants.
 
-📦 **[asyncapi/community](https://github.com/asyncapi/community)** (★ 135 | JavaScript)
-   AsyncAPI community-related stuff.
-
-📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 21 | TypeScript)
+📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 33 | TypeScript)
    No description available
 
-📦 **[polarizertech/spec-kit-extensions](https://github.com/polarizertech/spec-kit-extensions)** (★ 7 | PowerShell)
-   A collection of community-contributed extensions for https://github.com/github/spec-kit that enhance the Spec-Driven...
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 6 | Various)
+   Collection of OpenSpec Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
+
+📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 5 | TypeScript)
+   No description available
 
 <!-- CONTRIBUTIONS-END -->
 
