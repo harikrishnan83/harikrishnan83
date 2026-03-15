@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[Spec-Driven Development on Brownfield Projects](https://www.youtube.com/watch?v=gJvwn-nuSc8)** (March 10, 2026)
+   TL; DR; What is a Brownfield project? Is Spec-Driven Development possible with such projects? If yes, how do we go about it. Links: 1....
+
 📺 **[Spec-Driven Development – Adoption at Enterprise Scale #specdrivendevelopment #enterpriseai](https://www.youtube.com/watch?v=XGAtC6BF2ao)** (February 21, 2026)
    https://www.infoq.com/articles/enterprise-spec-driven-development/ - This video is a brief introduction to ideas from my long-form article published...
 
@@ -68,9 +71,6 @@
 
 📺 **[Linear MCP and OpenSpec based SDD workflow](https://www.youtube.com/watch?v=u7tlYs2WgQU)** (January 12, 2026)
    In this video, I walk through an OpenSpec based Spec-Driven Development (SDD) workflow that integrates with Linear for backlog and issue management....
-
-📺 **[Spec-Driven Development - Which tool should I use?](https://www.youtube.com/watch?v=I0x01WZq1Zw)** (December 26, 2025)
-   Which spec-driven development tool to choose? How does spec-driven development differ from plan mode? This video intends to clarify on these aspects...
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
