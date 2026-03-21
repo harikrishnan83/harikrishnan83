@@ -35,20 +35,20 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Spec-Driven Development with Brownfield Projects](https://blog.harikrishnan.io/2026-03-10/spec-driven-development-brownfield)** (March 10, 2026)
+   How to apply Spec-Driven Development to brownfield projects — codebases that lack specifications and rely solely on existing implementation.
+
+📝 **[OpenSpec 1.2 Release](https://blog.harikrishnan.io/2026-02-25/openspec-1-2-release)** (February 25, 2026)
+   OpenSpec 1.2 introduces new workflow capabilities — here is what is new in this release.
+
+📝 **[The Intent Harness](https://blog.harikrishnan.io/2026-02-23/intent-harness)** (February 23, 2026)
+   Between human ideas and agent execution there is a gap. The Intent Harness is the layer that transforms raw ideas into structured, durable...
+
 📝 **[Enterprise-Scale Spec-Driven Development: New InfoQ Article](https://blog.harikrishnan.io/2026-02-19/enterprise-spec-driven-development-infoq)** (February 19, 2026)
    My article on InfoQ explores how organisations can adopt Spec-Driven Development at scale — from brownfield integration and role-specific harnesses...
 
 📝 **[OpenSpec Custom Schemas](https://blog.harikrishnan.io/2026-02-12/openspec-custom-schemas)** (February 12, 2026)
    Customising OpenSpec workflow with schemas and config.yaml to tailor spec-driven workflows to your domain, defining exactly what artifacts your team...
-
-📝 **[OpenSpec 1.0 Release](https://blog.harikrishnan.io/2026-01-26/openspec-1-0-release)** (January 26, 2026)
-   OpenSpec 1.0 marks a major milestone for spec-driven development workflows, introducing Explore Mode, step-by-step generation, and intent...
-
-📝 **[Linear MCP + OpenSpec: A Spec-Driven Development Workflow](https://blog.harikrishnan.io/2026-01-11/linear-mcp-openspec-sdd-workflow)** (January 11, 2026)
-   This article explores how to integrate Spec-Driven Development (SDD) into existing workflows by combining Linear project management with OpenSpec....
-
-📝 **[Which Spec-Driven Development Tool Should You Choose?](https://blog.harikrishnan.io/2025-12-26/choosing-spec-driven-development-tool)** (December 26, 2025)
-   A practical framework for evaluating and selecting appropriate spec-driven development tools by considering workflow requirements and project rigor...
 
 <!-- BLOG-POSTS-END -->
 
