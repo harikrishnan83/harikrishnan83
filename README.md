@@ -82,20 +82,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[github/spec-kit](https://github.com/github/spec-kit)** (★ 72,837 | Python)
-   💫 Toolkit to help you get started with Spec-Driven Development
-
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 26,504 | TypeScript)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 36,054 | TypeScript)
    Spec-driven development (SDD) for AI coding assistants.
 
-📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 33 | TypeScript)
+📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 57 | TypeScript)
    No description available
 
-📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 6 | Various)
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 15 | Various)
    Collection of OpenSpec Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
 
-📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 5 | TypeScript)
+📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 7 | TypeScript)
    No description available
+
+📦 **[Waveform-Analytics/science-spec-kit](https://github.com/Waveform-Analytics/science-spec-kit)** (★ 4 | Python)
+   💫 Toolkit to help you get started with Spec-Driven Development - For SCIENCE!
 
 <!-- CONTRIBUTIONS-END -->
 
