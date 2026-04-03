@@ -35,6 +35,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[OpenSpec, Git WorkTrees and OpenCode](https://blog.harikrishnan.io/2026-04-01/openspec-git-worktrees-opencode)** (April 01, 2026)
+   A workflow for using Git WorkTrees and SubAgents to build features in parallel with OpenSpec Spec-Driven Development on OpenCode.
+
 📝 **[Spec-Driven Development with Brownfield Projects](https://blog.harikrishnan.io/2026-03-10/spec-driven-development-brownfield)** (March 10, 2026)
    How to apply Spec-Driven Development to brownfield projects — codebases that lack specifications and rely solely on existing implementation.
 
@@ -46,9 +49,6 @@
 
 📝 **[Enterprise-Scale Spec-Driven Development: New InfoQ Article](https://blog.harikrishnan.io/2026-02-19/enterprise-spec-driven-development-infoq)** (February 19, 2026)
    My article on InfoQ explores how organisations can adopt Spec-Driven Development at scale — from brownfield integration and role-specific harnesses...
-
-📝 **[OpenSpec Custom Schemas](https://blog.harikrishnan.io/2026-02-12/openspec-custom-schemas)** (February 12, 2026)
-   Customising OpenSpec workflow with schemas and config.yaml to tailor spec-driven workflows to your domain, defining exactly what artifacts your team...
 
 <!-- BLOG-POSTS-END -->
 
