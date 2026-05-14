@@ -35,6 +35,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Architectural Decision Records with Spec-Driven Development using OpenSpec](https://blog.harikrishnan.io/2026-04-29/spec-driven-development-with-adr)** (April 29, 2026)
+   How the spec-driven-with-adr OpenSpec schema preserves architectural decision rationale outside individual changes, keeping ADRs durable alongside...
+
 📝 **[OpenSpec, Git WorkTrees and OpenCode](https://blog.harikrishnan.io/2026-04-01/openspec-git-worktrees-opencode)** (April 01, 2026)
    A workflow for using Git WorkTrees and SubAgents to build features in parallel with OpenSpec Spec-Driven Development on OpenCode.
 
@@ -46,9 +49,6 @@
 
 📝 **[The Intent Harness](https://blog.harikrishnan.io/2026-02-23/intent-harness)** (February 23, 2026)
    Between human ideas and agent execution there is a gap. The Intent Harness is the layer that transforms raw ideas into structured, durable...
-
-📝 **[Enterprise-Scale Spec-Driven Development: New InfoQ Article](https://blog.harikrishnan.io/2026-02-19/enterprise-spec-driven-development-infoq)** (February 19, 2026)
-   My article on InfoQ explores how organisations can adopt Spec-Driven Development at scale — from brownfield integration and role-specific harnesses...
 
 <!-- BLOG-POSTS-END -->
 
