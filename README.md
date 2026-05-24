@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[Spec-Driven Development with OpenCode and OpenSpec](https://www.youtube.com/watch?v=M3dp9u1wZes)** (May 10, 2026)
+   OpenCode + OpenSpec for Spec-Driven Development with skills for git commit discipline, interviewing during proposal creation, C4 Diagrams during...
+
 📺 **[Spec-Driven Development on Brownfield Projects](https://www.youtube.com/watch?v=gJvwn-nuSc8)** (March 10, 2026)
    TL; DR; What is a Brownfield project? Is Spec-Driven Development possible with such projects? If yes, how do we go about it. Links: 1....
 
@@ -68,9 +71,6 @@
 
 📺 **[OpenSpec Release 1.0 - Workflow Changes](https://www.youtube.com/watch?v=JrI-P64y7H8)** (January 26, 2026)
    Walkthrough of changes in workflow (explore, new, continue, fast forward, verify, etc.) that come with release 1.0. #openspec #specdrivendevelopment...
-
-📺 **[Linear MCP and OpenSpec based SDD workflow](https://www.youtube.com/watch?v=u7tlYs2WgQU)** (January 12, 2026)
-   In this video, I walk through an OpenSpec based Spec-Driven Development (SDD) workflow that integrates with Linear for backlog and issue management....
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
