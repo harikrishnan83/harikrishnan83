@@ -82,20 +82,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 44,438 | TypeScript)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 51,958 | TypeScript)
    Spec-driven development (SDD) for AI coding assistants.
 
-📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 76 | TypeScript)
+📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 83 | TypeScript)
    No description available
 
-📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 25 | Various)
-   Collection of OpenSpec Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 45 | Various)
+   Collection of OpenSpec Custom Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
 
-📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 11 | TypeScript)
+📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 23 | Various)
+   OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, and reusable...
+
+📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 22 | TypeScript)
    No description available
-
-📦 **[Lemmon0409/openspec-improve](https://github.com/Lemmon0409/openspec-improve)** (★ 4 | TypeScript)
-   改进版openspec帮助ai实现spec coding
 
 <!-- CONTRIBUTIONS-END -->
 
