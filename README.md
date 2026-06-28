@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[Spec-Driven Development Multi-Model Adversarial Authoring and Glossary with OpenCode and OpenSpec](https://www.youtube.com/watch?v=2V78VVJ1sa0)** (June 27, 2026)
+   Spec-Driven Development with OpenSpec and OpenCode: Multi-model adversarial authoring of Specifications with one sub-agent authoring, another...
+
 📺 **[Product Backlog integration with Spec-Driven Development using Linear and OpenSpec](https://www.youtube.com/watch?v=rueiUBXVR9Y)** (May 29, 2026)
    This video covers integrating your product backlog with spec-driven development workflow to allow picking up issues or tasks from your backlog while...
 
@@ -68,9 +71,6 @@
 
 📺 **[Spec-Driven Development – Adoption at Enterprise Scale #specdrivendevelopment #enterpriseai](https://www.youtube.com/watch?v=XGAtC6BF2ao)** (February 21, 2026)
    https://www.infoq.com/articles/enterprise-spec-driven-development/ - This video is a brief introduction to ideas from my long-form article published...
-
-📺 **[OpenSpec Custom Schemas #specdrivendevelopment #openspec #aicoding #eventdrivenarchitecture](https://www.youtube.com/watch?v=k01nbZfwB34)** (February 12, 2026)
-   OpenSpec 1.0 allows us to customise the workflow as our needs using the config.yaml where we can refer to our own schema definitions. In this video...
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
