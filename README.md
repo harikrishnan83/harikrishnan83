@@ -82,20 +82,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 51,958 | TypeScript)
-   Spec-driven development (SDD) for AI coding assistants.
-
-📦 **[sohaha/studyzy-OpenSpec-cn](https://github.com/sohaha/studyzy-OpenSpec-cn)** (★ 83 | TypeScript)
-   No description available
-
-📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 45 | Various)
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 65 | Various)
    Collection of OpenSpec Custom Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
 
-📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 23 | Various)
-   OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, and reusable...
+📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 61 | Various)
+   OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, Multi-Model...
 
-📦 **[openspec-cn/openspec](https://github.com/openspec-cn/openspec)** (★ 22 | TypeScript)
-   No description available
+📦 **[intent-driven-dev/Intent-Driven-Software-Engineering](https://github.com/intent-driven-dev/Intent-Driven-Software-Engineering)** (★ 1 | Various)
+   Intent-Driven-Software Engineering book code repository
+
+📦 **[intent-driven-dev/spec-driven-url-shortener](https://github.com/intent-driven-dev/spec-driven-url-shortener)** (★ 1 | JavaScript)
+   Intent-Driven Software Engineering Book Companion code for Chapter 2: Spec-Driven Development Exercise....
+
+📦 **[intent-driven-dev/vibey-url-shortener](https://github.com/intent-driven-dev/vibey-url-shortener)** (★ 1 | JavaScript)
+   Intent-Driven Software Engineering Book Companion code for Chapter 2: Vibe Coding Exercise....
 
 <!-- CONTRIBUTIONS-END -->
 
