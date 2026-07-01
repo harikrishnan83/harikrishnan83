@@ -35,6 +35,9 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[Spec-Driven Development with OpenSpec and OpenCode](https://blog.harikrishnan.io/2026-05-10/spec-driven-development-openspec-opencode)** (May 10, 2026)
+   How the intent-driven-template integrates OpenSpec, OpenCode, and custom skills — grill-me, C4 diagrams, ADRs, parallel worktrees, and the...
+
 📝 **[Architectural Decision Records with Spec-Driven Development using OpenSpec](https://blog.harikrishnan.io/2026-04-29/spec-driven-development-with-adr)** (April 29, 2026)
    How the spec-driven-with-adr OpenSpec schema preserves architectural decision rationale outside individual changes, keeping ADRs durable alongside...
 
@@ -46,9 +49,6 @@
 
 📝 **[OpenSpec 1.2 Release](https://blog.harikrishnan.io/2026-02-25/openspec-1-2-release)** (February 25, 2026)
    OpenSpec 1.2 introduces new workflow capabilities — here is what is new in this release.
-
-📝 **[The Intent Harness](https://blog.harikrishnan.io/2026-02-23/intent-harness)** (February 23, 2026)
-   Between human ideas and agent execution there is a gap. The Intent Harness is the layer that transforms raw ideas into structured, durable...
 
 <!-- BLOG-POSTS-END -->
 
