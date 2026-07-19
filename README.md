@@ -57,6 +57,9 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
+📺 **[Behavior-Driven Development and Spec-Driven Development with OpenSpec](https://www.youtube.com/watch?v=xoPjF-Z2Qgw)** (July 16, 2026)
+   Spec-Driven Development using Behavior-Driven Development techniques to keep the implementation aligned with our intent and establish the...
+
 📺 **[Spec-Driven Development Multi-Model Adversarial Authoring and Glossary with OpenCode and OpenSpec](https://www.youtube.com/watch?v=2V78VVJ1sa0)** (June 27, 2026)
    Spec-Driven Development with OpenSpec and OpenCode: Multi-model adversarial authoring of Specifications with one sub-agent authoring, another...
 
@@ -68,9 +71,6 @@
 
 📺 **[Spec-Driven Development on Brownfield Projects](https://www.youtube.com/watch?v=gJvwn-nuSc8)** (March 10, 2026)
    TL; DR; What is a Brownfield project? Is Spec-Driven Development possible with such projects? If yes, how do we go about it. Links: 1....
-
-📺 **[Spec-Driven Development – Adoption at Enterprise Scale #specdrivendevelopment #enterpriseai](https://www.youtube.com/watch?v=XGAtC6BF2ao)** (February 21, 2026)
-   https://www.infoq.com/articles/enterprise-spec-driven-development/ - This video is a brief introduction to ideas from my long-form article published...
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
