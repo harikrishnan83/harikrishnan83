@@ -57,7 +57,7 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
-📺 **[Behavior-Driven Development and Spec-Driven Development with OpenSpec](https://www.youtube.com/watch?v=xoPjF-Z2Qgw)** (July 16, 2026)
+📺 **[Behavior-Driven Development and Spec-Driven Development with OpenSpec #specdrivendevelopment #bdd](https://www.youtube.com/watch?v=xoPjF-Z2Qgw)** (July 16, 2026)
    Spec-Driven Development using Behavior-Driven Development techniques to keep the implementation aligned with our intent and establish the...
 
 📺 **[Spec-Driven Development Multi-Model Adversarial Authoring and Glossary with OpenCode and OpenSpec](https://www.youtube.com/watch?v=2V78VVJ1sa0)** (June 27, 2026)
