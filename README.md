@@ -35,20 +35,20 @@
 <!-- BLOG-POSTS-START -->
 ## Latest from My Blog
 
+📝 **[How TDD and BDD Actually Fit Into Spec-Driven Development](https://blog.harikrishnan.io/2026-08-23/tdd-bdd-spec-driven-development)** (August 23, 2026)
+   The role of TDD in SDD along with BDD, how agents reward hack Test-Driven development and how to prevent it
+
+📝 **[Behavior-Driven Development and Spec-Driven Development with OpenSpec](https://blog.harikrishnan.io/2026-07-17/behavior-driven-development-sdd-openspec)** (July 17, 2026)
+   Capturing intent in Gherkin syntax to generate Cucumber tests that guide a coding agent — a walkthrough of Behavior-Driven Development combined with...
+
+📝 **[SDD with Multi-Model Spec Review and Glossary](https://blog.harikrishnan.io/2026-06-27/sdd-adversarial-authoring-glossary)** (June 27, 2026)
+   Spec-Driven Development with OpenSpec and OpenCode: Multi-model adversarial authoring of Specifications with one sub-agent authoring, another...
+
+📝 **[Integrating Your Product Backlog with Spec-Driven Development: Linear + OpenSpec via Skills](https://blog.harikrishnan.io/2026-05-29/linear-openspec-skill-based-sdd)** (May 29, 2026)
+   A skill-based workflow that connects your product backlog to spec-driven development — pick up issues from Linear and turn them into OpenSpec...
+
 📝 **[Spec-Driven Development with OpenSpec and OpenCode](https://blog.harikrishnan.io/2026-05-10/spec-driven-development-openspec-opencode)** (May 10, 2026)
    How the intent-driven-template integrates OpenSpec, OpenCode, and custom skills — grill-me, C4 diagrams, ADRs, parallel worktrees, and the...
-
-📝 **[Architectural Decision Records with Spec-Driven Development using OpenSpec](https://blog.harikrishnan.io/2026-04-29/spec-driven-development-with-adr)** (April 29, 2026)
-   How the spec-driven-with-adr OpenSpec schema preserves architectural decision rationale outside individual changes, keeping ADRs durable alongside...
-
-📝 **[OpenSpec, Git WorkTrees and OpenCode](https://blog.harikrishnan.io/2026-04-01/openspec-git-worktrees-opencode)** (April 01, 2026)
-   A workflow for using Git WorkTrees and SubAgents to build features in parallel with OpenSpec Spec-Driven Development on OpenCode.
-
-📝 **[Spec-Driven Development with Brownfield Projects](https://blog.harikrishnan.io/2026-03-10/spec-driven-development-brownfield)** (March 10, 2026)
-   How to apply Spec-Driven Development to brownfield projects — codebases that lack specifications and rely solely on existing implementation.
-
-📝 **[OpenSpec 1.2 Release](https://blog.harikrishnan.io/2026-02-25/openspec-1-2-release)** (February 25, 2026)
-   OpenSpec 1.2 introduces new workflow capabilities — here is what is new in this release.
 
 <!-- BLOG-POSTS-END -->
 
