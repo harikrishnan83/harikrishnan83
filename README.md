@@ -57,7 +57,10 @@
 <!-- YOUTUBE-VIDEOS-START -->
 ## Latest Videos from Intent Driven Dev
 
-📺 **[Behavior-Driven Development and Spec-Driven Development with OpenSpec #specdrivendevelopment #bdd](https://www.youtube.com/watch?v=xoPjF-Z2Qgw)** (July 16, 2026)
+📺 **[TDD Reward Hacking: Why Your Coding Agent is Cheating](https://www.youtube.com/watch?v=M5kZzC8_xCE)** (August 23, 2026)
+   Most engineers think prompting an AI to "use strict TDD" magically guarantees clean, decoupled architecture. It doesn't. Left to its own devices, a...
+
+📺 **[Spec-As-Source Spec-Driven Development with OpenSpec #specdrivendevelopment #bdd #vibecoding](https://www.youtube.com/watch?v=xoPjF-Z2Qgw)** (July 16, 2026)
    Spec-Driven Development using Behavior-Driven Development techniques to keep the implementation aligned with our intent and establish the...
 
 📺 **[Spec-Driven Development Multi-Model Adversarial Authoring and Glossary with OpenCode and OpenSpec](https://www.youtube.com/watch?v=2V78VVJ1sa0)** (June 27, 2026)
@@ -68,9 +71,6 @@
 
 📺 **[Spec-Driven Development with OpenCode and OpenSpec](https://www.youtube.com/watch?v=M3dp9u1wZes)** (May 10, 2026)
    OpenCode + OpenSpec for Spec-Driven Development with skills for git commit discipline, interviewing during proposal creation, C4 Diagrams during...
-
-📺 **[Spec-Driven Development on Brownfield Projects](https://www.youtube.com/watch?v=gJvwn-nuSc8)** (March 10, 2026)
-   TL; DR; What is a Brownfield project? Is Spec-Driven Development possible with such projects? If yes, how do we go about it. Links: 1....
 
 [View all videos](https://www.youtube.com/playlist?list=PLPK-HeXEV3yB8Nghu1qFgPHd2XvaJhSR_)
 <!-- YOUTUBE-VIDEOS-END -->
