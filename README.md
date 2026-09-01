@@ -88,20 +88,20 @@ Author of [_Spec-Driven Development: Engineering with Intent (Manning Publicatio
 
 Here are a few repos I have contributed to:
 
-📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 97 | Various)
-   OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, Multi-Model...
-
-📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 79 | Various)
-   Collection of OpenSpec Custom Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
-
-📦 **[intent-driven-dev/behavior-driven-template](https://github.com/intent-driven-dev/behavior-driven-template)** (★ 2 | JavaScript)
-   OpenSpec Behavior Driven Development Template
-
-📦 **[intent-driven-dev/OpenSpec](https://github.com/intent-driven-dev/OpenSpec)** (★ 2 | TypeScript)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 66,838 | TypeScript)
    Spec-driven development (SDD) for AI coding assistants.
 
-📦 **[intent-driven-dev/Intent-Driven-Software-Engineering](https://github.com/intent-driven-dev/Intent-Driven-Software-Engineering)** (★ 2 | Various)
-   Intent-Driven-Software Engineering book code repository
+📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 121 | Python)
+   OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, Multi-Model...
+
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 91 | Various)
+   Collection of OpenSpec Custom Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
+
+📦 **[intent-driven-dev/Intent-Driven-Software-Engineering](https://github.com/intent-driven-dev/Intent-Driven-Software-Engineering)** (★ 4 | Various)
+   "Spec-Driven Development: Engineering with Intent" book code repository
+
+📦 **[intent-driven-dev/skills](https://github.com/intent-driven-dev/skills)** (★ 3 | Python)
+   Intent-Driven Development Skills
 
 <!-- CONTRIBUTIONS-END -->
 
