@@ -64,20 +64,20 @@
 
 Here are a few repos I have contributed to:
 
-📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 144 | Python)
+📦 **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** (★ 73,545 | TypeScript)
+   Spec-driven development (SDD) for AI coding assistants.
+
+📦 **[intent-driven-dev/intent-driven-template](https://github.com/intent-driven-dev/intent-driven-template)** (★ 188 | Python)
    OpenSpec and OpenCode template for intent-driven development with specs, ADRs, C4 diagrams, Gherkin, TDD, Multi-Model...
 
-📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 103 | Various)
+📦 **[intent-driven-dev/openspec-schemas](https://github.com/intent-driven-dev/openspec-schemas)** (★ 114 | Various)
    Collection of OpenSpec Custom Schema for Workflows other than standard spec-driven schema that is included in OpenSpec.
 
-📦 **[intent-driven-dev/skills](https://github.com/intent-driven-dev/skills)** (★ 9 | Python)
+📦 **[intent-driven-dev/skills](https://github.com/intent-driven-dev/skills)** (★ 11 | Python)
    Intent-Driven Development Skills
 
-📦 **[intent-driven-dev/Intent-Driven-Software-Engineering](https://github.com/intent-driven-dev/Intent-Driven-Software-Engineering)** (★ 6 | Various)
+📦 **[intent-driven-dev/Intent-Driven-Software-Engineering](https://github.com/intent-driven-dev/Intent-Driven-Software-Engineering)** (★ 9 | Various)
    Code repository for book "Spec-Driven Development: Engineering with Intent" on Manning Publications
-
-📦 **[intent-driven-dev/OpenSpec](https://github.com/intent-driven-dev/OpenSpec)** (★ 3 | TypeScript)
-   Spec-driven development (SDD) for AI coding assistants.
 
 <!-- CONTRIBUTIONS-END -->
 
